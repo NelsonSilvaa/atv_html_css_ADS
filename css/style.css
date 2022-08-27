@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-
+/*------ADICIONANDO FUNÇÃO PARA AJUSTAR AUTOMATICO EM UMA SECTION--------*/
 #container{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
@@ -36,9 +36,9 @@ section{
     justify-content: center;
     align-items: center;
 }
-/*----------FIM estilo Nomes----------*/
+/*----------FIM ESTILO PAGINA PRINCIPAL----------*/
 
-/*----------Inicio estilo Nomes----------*/
+/*----------INICIO ESTILO APRESENTAÇÃO (NOMES) ----------*/
 .section-nomes{
     background-color: black;
     background-repeat: no-repeat;
@@ -77,7 +77,7 @@ section{
     font-size: 78px;
     color: rgb(43, 247, 60);
 }
-/*----------FIM estilo Nomes----------*/
+/*----------FIM ESTILO NOMES----------*/
 
 /*----------Inicio estilo Tags e Propriedades----------*/
 
@@ -106,14 +106,14 @@ section{
 }
 
 .nav-lista ul li{
-    text-decoration: none;
+    text-decoration: none; /*tirando sublinhado do texto*/
 }
 
 .nav-lista ul li a{
-    text-decoration: none;
+    text-decoration: none; /*tirando sublinhado do texto*/
     color: rgb(255, 255, 255);
 }
-
+/*Criação de animação nos links*/
 .nav-lista ul li a:hover {
     transition: 0.5s;
     color: rgb(86, 89, 240);
