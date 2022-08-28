@@ -2,6 +2,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 /*------ADICIONANDO FUNÇÃO PARA AJUSTAR AUTOMATICO EM UMA SECTION--------*/
 #container{
@@ -24,8 +25,9 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
+    background-attachment: fixed;
 }
+
 
 .texto-titilo{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
