@@ -18,7 +18,7 @@ section{
 }
 /*----------Inicio estilo pagina principal----------*/
 .section-titulo{
-	background-image: url(/image/background.jpg);
+	background-image: url(../image/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
