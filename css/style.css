@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Prompt:wght@200&family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap'); /*https://fonts.google.com/specimen/Inconsolata?query=consol&preview.text=Integrantes&preview.text_type=custom*/
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap'); /*    https://fonts.google.com/specimen/JetBrains+Mono?query=jet&preview.text=Integrantes&preview.text_type=custom*/
+
 /*resetando formatações padrões dos navegadores*/
 *{
     padding: 0;
@@ -30,8 +35,8 @@ section{
 
 
 .texto-titilo{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-    color:rgb(255, 255, 255);
+    font-family: 'JetBrains Mono', monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: #f2fdff;
     font-size: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -42,73 +47,112 @@ section{
 
 /*----------INICIO ESTILO APRESENTAÇÃO (NOMES) ----------*/
 .section-nomes{
-    background-color: black;
+    background-color: #020717;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
+
+
+/* .texto-nome{
+    font-family: 'Inconsolata', monospace;
+    color: #05f7f7;
+    font-size: 33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
 
 
 .texto-nome{
-    padding: 2%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    font-size: 31px;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 16px;
+    /* border: 2px solid green; */
 }
 
-.integrante{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-bottom: 40px;
-    font-family:'Arial Narrow Bold', sans-serif;
+.wrap-integrante{
+    margin: 3% 1%;
     font-size: 78px;
-    color: rgb(43, 247, 60);
+    color: #8a21e5;
+    font-family: 'JetBrains Mono', monospace;
+    /* border: 2px solid yellow; */
 }
-.professor{
+
+.wrap-integrante-nome{
+    margin: 5% 0 0;
+    padding: 2%;
+    max-width: 40rem;
+    font-family: 'Inconsolata', monospace;
+    color: #05f7f7;
+    font-size: 38px;
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+}
+
+.wrap-professor{
+    margin: 3% 1%;
+    font-size: 78px;
+    color: #8a21e5;
+    font-family: 'JetBrains Mono', monospace;
+    /* border: 2px solid yellow; */
+}
+
+.wrap-professor-nome{
+    /* border: 2px solid red; */
+    margin: 8% 0;
+    padding: 2%;
+    font-family: 'Inconsolata', monospace;
+    color: #05f7f7;
+    font-size: 38px;
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
-    font-family:'Arial Narrow Bold', sans-serif;
-    font-size: 78px;
-    color: rgb(43, 247, 60);
-}
+    align-items: center;
+} 
+
+
 /*----------FIM ESTILO NOMES----------*/
 
 /*----------Inicio estilo Tags e Propriedades----------*/
 
 .section-tags{
-    background-color: rgb(49, 47, 47);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     font-size: 40px;
 }
 
-.texto-tags{
-    margin-top: 12px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
-    box-sizing: border-box;
+.texto-tags{    
+    color: #05f7f7;
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
 }
 
 .container-lista{
+    max-width: 80%;
     padding: 0px 20px 20px 20px;
     margin-top: 10vh;
-    background-color: rgb(15, 14, 14);
+    background-color: #020717;
     color: azure;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    box-shadow: 10px 10px 10px rgb(243, 240, 240);
+    box-shadow: -10px 10px 12px 12px #0fffff;
+    width: 100%;
 }
 
 .nav-lista ul li{
     text-decoration: none; /*tirando sublinhado do texto*/
+    list-style: none;
+    font-family: 'Inconsolata', monospace;
+    font-size: 45px;
 }
 
 .nav-lista ul li a{
@@ -117,13 +161,16 @@ section{
 }
 /*Criação de animação nos links*/
 .nav-lista ul li a:hover {
-    transition: 0.5s;
-    color: rgb(86, 89, 240);
+    transition: 0.6s;
+    color: #0fffff;
     cursor: pointer;
 }
 
-.text-dentro-lista {
+.text-dentro-lista { 
+    font-family: 'JetBrains Mono', monospace;
+    color: #8a21e5;
     display: flex;
+    font-size: 60px;
     justify-content: flex-start;
     margin: 26px 0px;
     margin-left: 0px;
