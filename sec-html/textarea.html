@@ -2,30 +2,45 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Noframe</title>
+    <title>Textarea</title>
     <link rel="stylesheet" href="./css/stylehtml.css">
-    
     <style>
-        .section-exemplo a{
-            color: aliceblue;
-            font-size: 60px;
-            font-family: monospace;
-            text-decoration: none;
-            border: 5px solid white;
+        .section-exemplo{
+            font-family: 'JetBrains Mono', monospace;
+            color: #ffffff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items:flex-start;
+        }
+
+        .titulo-textarea{
+            padding: 80px 0 0 0 ;
+            font-size: 75px;
+        }
+
+        .exemplo-textarea{
+            padding-top: 64px;
         }
     </style>
-
 </head>
 <body>
     <div id="container">
         <section class="section-titulo">
-            <p class="titulo-html">&ltnoframe&gt  </p>
+            <p class="titulo-html">&lttextarea&gt  </p>
         </section>
 
         <!--/////////////// EXEMPLO DE CODIGO ////////////////////////////////-->
 
-        <section class="section-exemplo"> 
-            <a href="noframe-exemplo.html">Ver exemplo da tag noframe</a>
+        <section class="section-exemplo">
+            <div class="container-textarea">
+                <div class="titulo-textarea">
+                    <p>Isso aqui é um &lttextarea&gt</p>
+                    <div class="exemplo-textarea">
+                        <textarea  rows="10" cols="110">Geralmente usado para escrever mensagens de email</textarea>
+                    </div>
+                </div>
+            </div>
         </section>
     
         <!-- ------------------------------------------------------------------------ -->
@@ -42,7 +57,7 @@
                                 <li><a href="noframe.html">noframe</a></li>
                                 <li><a href="textarea.html">textarea</a></li>
                                 <li><a href="template.html">template</a></li>
-                                <li><a href="thead.html">thead</a></li>
+                                <li><a href="aside.html">thead</a></li>
                                 <li><a href="param.html">param</a></li>
                             </ul>
                         </nav>
