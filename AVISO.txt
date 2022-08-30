@@ -1,6 +1,6 @@
 Para criar um arquivo novo, copie o código fonte do arquivo HTML aside.html
 
-Em seguida cole o cófigo fonte no novo arquivo que irá criar
+Em seguida cole o código fonte no novo arquivo que irá criar
 
 
 altere o titulo do documento na tag <title>
@@ -8,8 +8,8 @@ altere o titulo do documento na tag <title>
 
 altere o nome da página próximo da linha 11 pelo nome da tag ou propriedade apresentada na página atual
 
-para alterar faça o seguinte:
-&lt aside &gt = <aside>
+    para alterar faça o seguinte:
+    &lt aside &gt = <aside>
 
 &lt significa < e &gt significa >
 
