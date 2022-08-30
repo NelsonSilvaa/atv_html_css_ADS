@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Prompt:wght@200&family=Source+Code+Pro:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap'); /*https://fonts.google.com/specimen/Inconsolata?query=consol&preview.text=Integrantes&preview.text_type=custom*/
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap'); /*    https://fonts.google.com/specimen/JetBrains+Mono?query=jet&preview.text=Integrantes&preview.text_type=custom*/
-
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 /*resetando formatações padrões dos navegadores*/
 *{
     padding: 0;
@@ -23,7 +23,7 @@ section{
 }
 /*----------Inicio estilo pagina principal----------*/
 .section-titulo{
-	background-image: url(../image/background.jpg);
+	background-image: url(../image/backhome.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -35,9 +35,10 @@ section{
 
 
 .texto-titilo{
-    font-family: 'JetBrains Mono', monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    padding: 0 0 0 2%;
+    font-family: 'Russo One', sans-serif;
     color: #f2fdff;
-    font-size: 50px;
+    font-size: 78px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
