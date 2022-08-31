@@ -143,3 +143,11 @@ section{
     margin: 26px 0px;
     margin-left: 0px;
 }
+.text-explicacao {
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    display: flex;
+    font-size: 10px;
+    margin: 26px 0px;
+    margin-left: 0px;
+}
