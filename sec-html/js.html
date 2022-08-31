@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <template id="tp1">
+         <img src="../image/background.jpg">
+    </template>
+    <template id="tp2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quidem! Totam rem voluptates facilis nulla dolorem! Suscipit similique, deleniti autem doloribus, necessitatibus reiciendis expedita eius, quos natus sit nemo dolore! </p>
+   </template>
+    
+     <div class="area1">
+     </div>
+
+     <div class="area2">
+     </div>
+
+    
+
+     <button class="btn1" type="button">add</button>
+     <button class="btn2" type="button">add</button>
+    
+     <script>
+         const btn1 = document.querySelector('.btn1');
+         const template1 = document.querySelector('#tp1');
+         const div1 = document.querySelector('.area1');
+
+         const btn2 = document.querySelector('.btn2');
+         const template2 = document.querySelector('#tp2');
+         const div2 = document.querySelector('.area2');
+
+    
+         btn1.addEventListener('click', e =>{
+             div1.append(template1.content.cloneNode(true));
+         });
+
+
+         btn2.addEventListener('click', e =>{
+             div2.append(template2.content.cloneNode(true));
+         });
+
+         
+
+
+
+     </script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
