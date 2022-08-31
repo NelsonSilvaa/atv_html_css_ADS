@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>writing-mode</title>
+    <link rel="stylesheet" href="stylecss.css">
+</head>
+<body>
+    <div id="container">
+        <section class="section-titulo">
+            <p class="titulo-html">&ltwriting-mode&gt  </p>
+        </section>
+
+        <!--/////////////// EXEMPLO DE CODIGO ////////////////////////////////-->
+
+        <section class="section-exemplo"> 
+            <style>
+                .exemple-writing-mode1{
+                    font-feature-settings: "flac";
+                    color:rgb(0, 255, 30);
+                    writing-mode: horizontal-tb;
+                }
+                .exemple-writing-mode2{
+                    font-feature-settings: "flac";
+                    color:red;
+                    writing-mode: sideways-lr;
+                }
+                .exemple-writing-mode3{
+                    font-feature-settings: "flac";
+                    color:rgb(0, 17, 255);
+                    writing-mode: vertical-lr;
+                }
+            </style>
+         <P>A propriedade especifica se as linhas de texto serão horizontais ou verticais;</P>
+         <P>Exemplo:</P>
+        <P class="exemple-writing-mode1">Transforme seus erros em semetes</P>
+        <p class="exemple-writing-mode2">Você está onde você se coloca</p>
+        <P class="exemple-writing-mode3">A vida muda na proporção da sua coragem</P>
+        </section>
+    
+        <!-- ------------------------------------------------------------------------ -->
+        <section class="section-tags">
+            <div class="texto-tags">
+                <h1>Tags e propriedades</h1>
+                <div class="container-lista">
+                    <!-- COLOCADO NAV PARA INDICAR NAVEGAÇÃO COM LISTAS DE LINK -->
+                    <nav class="nav-lista">   
+                        <p class="text-dentro-lista">HTML</p>
+                        <!-- CRIÇÃO DE LISTA NÃO ORDENADA HTML-->
+                        <ul>
+                            <li><a href="../sec-html/aside.html">aside</a></li>
+                            <li><a href="../sec-html/noframe.html">noframe</a></li>
+                            <li><a href="../sec-html/template.html">template</a></li>
+                            <li><a href="../sec-html/thead.html">thead</a></li>
+                            <li><a href="../sec-html/param.html">param</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="nav-lista">
+                        <p class="text-dentro-lista">CSS</p>
+                        <!-- CRIÇÃO DE LISTA NÃO ORDENADA CSS-->
+                        <ul>
+                            <li><a href="writing-mode.html">writing-mode</a></li>
+                            <li><a href="grid-column-end.html">grid-column-end</a></li>
+                            <li><a href="padding-top.html">padding-top</a></li>
+                            <li><a href="../index.html">Voltar</a></li>
+                        <ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
