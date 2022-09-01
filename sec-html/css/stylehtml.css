@@ -198,6 +198,11 @@ section{
     /* border: 2px solid #955456; */
 }
 
+.img-template{
+    width: 410px;
+    height: 410px;
+}
+
 .section-exemplo-template{
     color: #ffffff;
 }
