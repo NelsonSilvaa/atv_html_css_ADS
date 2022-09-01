@@ -213,3 +213,22 @@ section{
     font-size: 25px;
     color: #ffffff;
 }
+
+footer{
+    color: #ffffff;
+    font-size: 54px;
+    margin-top: 50px;
+    margin: 22px auto;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Jet Brains', monospace;
+}
+
+footer a:hover{
+    color: #8a21e5;
+    transition: 0.3s;
+}

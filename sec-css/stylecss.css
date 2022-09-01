@@ -193,6 +193,24 @@ section{
 
 .container-grid .grid2{
     background-color: #05f7f7;
-    grid-row-start: span 2;
-    grid-row-end: span 2;
+    grid-column-end: span 3;
+}
+
+footer{
+    color: #ffffff;
+    font-size: 54px;
+    margin-top: 50px;
+    margin: 22px auto;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Jet Brains', monospace;
+}
+
+footer a:hover{
+    color: #8a21e5;
+    transition: 0.3s;
 }

@@ -71,7 +71,7 @@ section{
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 16px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .wrap-integrante{
@@ -79,7 +79,7 @@ section{
     font-size: 78px;
     color: #8a21e5;
     font-family: 'JetBrains Mono', monospace;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 .wrap-integrante-nome{
@@ -89,7 +89,7 @@ section{
     font-family: 'Inconsolata', monospace;
     color: #05f7f7;
     font-size: 38px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     flex-wrap: wrap;
 }
 
@@ -98,11 +98,11 @@ section{
     font-size: 78px;
     color: #8a21e5;
     font-family: 'JetBrains Mono', monospace;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 .wrap-professor-nome{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 8% 0;
     padding: 2%;
     font-family: 'Inconsolata', monospace;
@@ -176,4 +176,23 @@ section{
     justify-content: flex-start;
     margin: 26px 0px;
     margin-left: 0px;
+}
+
+footer{
+    color: #ffffff;
+    font-size: 54px;
+    margin-top: 50px;
+    margin: 22px auto;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Jet Brains', monospace;
+}
+
+footer a:hover{
+    color: #8a21e5;
+    transition: 0.3s;
 }
